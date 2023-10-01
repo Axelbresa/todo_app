@@ -2,23 +2,29 @@
 h1 {
   color: gold;
   align-items: center;
-
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 h3 {
-  color: gold
+  color: gold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
 
 .todo-item {
   border: 2px solid blue;
   background-color: blue;
-  color: white;
+  color: rgb(6, 0, 0);
+  font-style: oblique;
+  font-size: larger;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10px;
+  padding: 15px 10px;
   margin: 5px 0;
+  border-radius: 20px;
 }
 
 .todo-item.completed {
